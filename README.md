@@ -1,8 +1,8 @@
 # Identifying-Quora-Question-Pairs
-In this project, I use sentence embeddings to identify question pairs 
+In this project, I use sentence embeddings to identify question pairs. I use logistc regression as a baseline model, then use random forest and XGBoost. 
 
 
-# Logistic Regression Results
+# Logistic Regression Results (Baseline)
 
 | Model                                                 | True Positive | True Negative  | False Positive | False Negative | Accuracy | Precision | Recall | F1-Score | AOC AUC | Log Loss |
 |-------------------------------------------------------|---------------|----------------|----------------|----------------|----------|-----------|--------|----------|---------|---------|
